@@ -8,7 +8,7 @@ Java | 大话设计模式、基础知识查漏
 
 ### 创建型模式
 - [单例模式](./DesignPattern/Singleton/SingletonClient.java)
-- [工厂方法模式]()
+- [工厂方法模式](./src/DesignPattern/Factory/Factory/FactoryClient.java)
 - [抽象工厂模式]()
 - [原型模式]()
 - [建造者模式]()
@@ -36,3 +36,6 @@ Java | 大话设计模式、基础知识查漏
 - [职责链模式]()
 - [中介者模式]()
 - [访问者模式]()
+
+### 6个原则
+- [设计模式原则](https://www.whyyue.com/2018/03/13/设计模式-6个原则是什么？/)
