@@ -20,7 +20,7 @@ class AddFactory implements IFactory {
 
     @Override
     public Operation createOperation() {
-	return new OperationAdd();
+	   return new OperationAdd();
     }
 
 }
@@ -29,7 +29,7 @@ class SubFactory implements IFactory {
 
     @Override
     public Operation createOperation() {
-	return new OperationSub();
+	   return new OperationSub();
     }
 
 }
@@ -38,7 +38,7 @@ class MulFactory implements IFactory {
 
     @Override
     public Operation createOperation() {
-	return new OperationMul();
+	   return new OperationMul();
     }
 
 }
@@ -47,7 +47,7 @@ class DivFactory implements IFactory {
 
     @Override
     public Operation createOperation() {
-	return new OperationDiv();
+	   return new OperationDiv();
     }
 
 }

@@ -9,7 +9,7 @@ Java | 大话设计模式、基础知识查漏
 ### 创建型模式
 - [单例模式](./DesignPattern/Singleton/SingletonClient.java)
 - [工厂方法模式](./src/DesignPattern/Factory/Factory/FactoryClient.java)
-- [抽象工厂模式]()
+- [抽象工厂模式](./src/DesignPattern/Factory/Abstract/Client.java)
 - [原型模式]()
 - [建造者模式]()
 
@@ -28,7 +28,7 @@ Java | 大话设计模式、基础知识查漏
 
 ### 行为模式（对象行为型模式）
 - [策略模式]()
-- [观察者模式]()
+- [观察者模式](./src/DesignPattern/Observer/ObserverClient.java)
 - [状态模式]()
 - [备忘录模式]()
 - [迭代器模式]()
