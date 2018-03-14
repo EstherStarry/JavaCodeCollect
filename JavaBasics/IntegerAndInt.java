@@ -23,10 +23,10 @@ public class IntegerAndInt {
         /*
         Integer i5 = 128;
         Integer i6 = 128;
-        System.out.println(i5 == i6);//false
+        System.out.println(i5 == i6);//false,从valueOf源码看出，只有对于-128到127之间的数，才会进行缓存
 		*/
         Integer ii5 = new Integer(127);
-        System.out.println(i5 == ii5); //false
+        System.out.println(i5 == ii5); //false,ii5是new出来的，不是同一个对象
         Integer i7 = new Integer(128);
         Integer i8 = new Integer(123);
         System.out.println(i7 == i8);  //false
